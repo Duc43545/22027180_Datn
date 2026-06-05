@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# MY_F427 specific board sensors init
+#
+
+icm20948 -s -R 8 -M start
+
+ms5611 -X start
